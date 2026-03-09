@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.util.Stack;
 import java.util.Queue;
 import java.util.LinkedList;
+
 public class PalindromeCheckerApp {
     public static void main(String[] args) {
 
@@ -37,7 +38,6 @@ public class PalindromeCheckerApp {
 
         // Display result
         System.out.println("Input: " + input);
-        System.out.println("Is Palindrome?:");
-        System.out.println(isPalindrome);
+        System.out.println("Is Palindrome?: " + isPalindrome);
     }
 }
