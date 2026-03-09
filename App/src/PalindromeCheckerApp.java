@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.Stack;
+
 public class PalindromeCheckerApp {
     public static void main(String[] args) {
 
@@ -29,7 +30,6 @@ public class PalindromeCheckerApp {
 
         // Display result
         System.out.println("Input: " + input);
-        System.out.println("Is Palindrome?:");
-        System.out.println(isPalindrome);
+        System.out.println("Is Palindrome?: " + isPalindrome);
     }
 }
