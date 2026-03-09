@@ -4,6 +4,7 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Deque;
 import java.util.ArrayDeque;
+
 public class PalindromeCheckerApp {
     public static void main(String[] args) {
 
@@ -16,13 +17,6 @@ public class PalindromeCheckerApp {
         System.out.println(result);
     }
 
-    /**
-     * Recursively checks whether a string is palindrome.
-     * @param s Input string
-     * @param start Starting index
-     * @param end Ending index
-     * @return true if palindrome, otherwise false
-     */
     private static boolean check(String s, int start, int end) {
 
         // Base case: If pointers cross or meet
