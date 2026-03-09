@@ -4,6 +4,7 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Deque;
 import java.util.ArrayDeque;
+
 public class PalindromeCheckerApp {
     public static void main(String[] args) {
 
@@ -35,7 +36,6 @@ public class PalindromeCheckerApp {
 
         // Display result
         System.out.println("Input: " + input);
-        System.out.println("Is Palindrome?:");
-        System.out.println(isPalindrome);
+        System.out.println("Is Palindrome?: " + isPalindrome);
     }
 }
